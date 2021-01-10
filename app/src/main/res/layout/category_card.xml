@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/category_name"
+        android:textSize="16sp"
+        android:layout_margin="30dp"
+        android:layout_weight="0.9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/category_checker"
+        android:layout_width="25dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_tick"
+        android:layout_gravity="center"
+        android:layout_marginEnd="35dp"/>
+
+</LinearLayout>
